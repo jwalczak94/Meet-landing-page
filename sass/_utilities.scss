@@ -1,0 +1,35 @@
+h1 {
+  font-size: 6.4rem;
+  font-weight: 900;
+  line-height: 6.4rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 4.4rem;
+}
+
+.overline {
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 2.6rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: $cyan;
+}
+
+.lead {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: $grey;
+}
+
+.text-primary {
+  color: $cyan-light;
+}
+
+.text-secondary {
+  color: $purple-light;
+}

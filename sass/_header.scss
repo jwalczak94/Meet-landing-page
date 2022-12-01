@@ -1,0 +1,45 @@
+.header {
+  margin-bottom: 11rem;
+
+  &__logo {
+    margin-top: 8rem;
+    margin-bottom: 6.1rem;
+  }
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  max-width: 144rem;
+
+  background-image: url(../images/desktop/image-hero-left.png),
+    url(../images/desktop/image-hero-right.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+
+  &__img {
+    display: none;
+  }
+
+  &__description {
+    max-width: 54rem;
+    text-align: center;
+    margin: 47px 0 7px 0;
+
+    h1 {
+      max-width: 45rem;
+      margin: 0 auto 3.4rem;
+    }
+
+    &__buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1.6rem;
+
+      margin-top: 3.2rem;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.footer {
+  background-image: linear-gradient(rgba($cyan, 0.8), rgba($cyan, 0.8)),
+    url(../images/desktop/image-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 11.5rem 1rem 10rem;
+
+  &__content {
+    max-width: 111rem;
+    color: $light;
+
+    display: grid;
+    grid-template-columns: 30% 32% auto;
+    grid-template-columns: 35% 31% auto;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      color: inherit;
+    }
+  }
+}
