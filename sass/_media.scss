@@ -1,0 +1,137 @@
+@media screen and (max-width: $bp-tablet) {
+  //UTILITES
+  h1 {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+  }
+
+  .lead {
+    font-size: 1.6rem;
+  }
+
+  //HEADER
+  .header {
+    margin-bottom: 8rem;
+
+    &__logo {
+      margin-top: 4.8rem;
+      margin-bottom: 6.4rem;
+    }
+  }
+
+  .hero {
+    background-image: none;
+    flex-direction: column;
+
+    &__img {
+      display: block;
+      margin-bottom: 7.2rem;
+    }
+
+    &__description {
+      max-width: 45rem;
+      margin: 0;
+
+      h1 {
+        max-width: 34rem;
+        margin: 0 auto 2.4rem;
+      }
+    }
+  }
+
+  //COMPONENTS
+  .gallery {
+    gap: 1.1rem;
+    margin: 0 4rem;
+
+    margin-bottom: 4.8rem;
+  }
+
+  //FOOTER
+  .footer {
+    background-image: linear-gradient(rgba($cyan, 0.8), rgba($cyan, 0.8)),
+      url(../images/tablet/image-footer.jpg);
+
+    padding: 9.2rem 2.4rem 7rem;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      max-width: 57rem;
+
+      p {
+        margin: 3.2rem 0 4rem;
+        max-width: 57rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $bp-mobile) {
+  //UTILITES
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
+
+  //   HEADER
+  .header {
+    margin-bottom: 6.4rem;
+
+    &__logo {
+      margin-bottom: 5.4rem;
+    }
+  }
+
+  .hero {
+    &__img {
+      margin-bottom: 4.8rem;
+    }
+
+    &__description {
+      max-width: 32rem;
+
+      &__buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  //COMPONENTS
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+
+    margin: 0 2.4rem;
+    margin-bottom: 6.4rem;
+  }
+
+  //SECTIONS
+  .section-1 {
+    margin-bottom: 6.4rem;
+
+    &__description {
+      margin: 0 2.4rem;
+    }
+  }
+
+  //FOOTER
+  .footer {
+    background-image: linear-gradient(rgba($cyan, 0.8), rgba($cyan, 0.8)),
+      url(../images/mobile/image-footer.jpg);
+
+    &__content {
+      p {
+        margin: 2.4rem 0 3.2rem;
+      }
+    }
+  }
+}

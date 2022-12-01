@@ -1,0 +1,61 @@
+//color variables
+$cyan: hsl(192, 37%, 48%);
+$cyan-light: hsl(192, 90%, 77%);
+$purple: hsl(268, 34%, 53%);
+$purple-light: hsl(268, 100%, 86%);
+$light: hsl(0, 0%, 98%);
+$dark: hsl(240, 21%, 20%);
+$grey: hsl(240, 10%, 57%);
+
+// RESPONSIVE BREAKPOINTS
+$bp-tablet: 75rem; //1200px
+$bp-mobile: 48em; //768px
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  color: $dark;
+  font-family: "Red Hat Display", sans-serif;
+  text-rendering: optimizeSpeed;
+  background-color: $light;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

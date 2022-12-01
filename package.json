@@ -1,0 +1,20 @@
+{
+  "name": "challenge19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o css/ -recursive",
+    "build": "postcss --use autoprefixer -b 'last 10 versions' css/main.css -o css/main.build.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "node-sass": "^8.0.0",
+    "postcss-cli": "^10.1.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13"
+  }
+}
