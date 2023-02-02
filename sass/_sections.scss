@@ -1,13 +1,15 @@
 .section-1 {
-  margin-bottom: 7.2rem;
+  margin-bottom: 4.5rem;
 
   &__description {
-    max-width: 54rem;
+    max-width: 33.74rem;
     text-align: center;
 
     h2 {
-      margin-top: 1.6rem;
-      margin-bottom: 3.2rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+      margin-inline: auto;
+      max-width: 28rem;
     }
   }
 }
